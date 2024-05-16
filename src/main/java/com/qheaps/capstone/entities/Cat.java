@@ -14,7 +14,7 @@ import jakarta.persistence.*;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@SequenceGenerator(name = "cat_sequence", initialValue = 4)
+@SequenceGenerator(name = "cat_sequence", initialValue = 6)
 public class Cat {
 
     @Id

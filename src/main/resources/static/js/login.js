@@ -29,7 +29,6 @@ async function handleRegister(e) {
     const responseArr = await response.json()
 
     if (response.status === 200) {
-        console.log(responseArr[0])
 
         let regConf = document.createElement(`p`)
         regConf.setAttribute(`class`, `login-text`)

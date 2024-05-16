@@ -303,8 +303,8 @@ function infoAppend(string) {
         infoRead.appendChild(infoText)
     } else {
         infoRead.replaceChildren()
-        infoAppend(`> CLS`)
-        infoAppend("> dir C:\\actions\\*.TXT")
+        infoAppend(`CLS`)
+        infoAppend("dir C:\\actions\\*.TXT")
         let infoText = document.createElement(`p`)
         infoText.setAttribute(`class`, `game-text`)
         infoText.innerHTML = (`> ${string}`)
