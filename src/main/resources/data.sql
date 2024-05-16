@@ -3,7 +3,7 @@ INSERT INTO Cats (id, name, image, max_hp, cur_hp, atk, atk_desc, util, util_typ
 (2, 'Silver Paw', '.\images\silverpaw.png', 125, 125, 177, 'Malorian Blast', 30, 'def_buff', 3, true),
 (3, 'Comrade', '.\images\comrade.png', 175, 175, 100, 'Stalinium Blade', 60, 'multi_heal', 3, true),
 (4, 'Floppa', '.\images\floppa.png', 250, 2000, 75, 'Fanter Shot', 20, 'atk_buff', 2, true),
-(5, '', '.\images\mewing.png', 175, 175, 140, 'Terizzium Bow', 20, 'def_buff', 3, true);
+(5, 'The Thinker', '.\images\mewing.png', 175, 175, 140, 'Terizzium Bow', 20, 'def_buff', 3, true);
 --('', '', 0, 0, 0, '', 0, '', 0),
 
 INSERT INTO Enemies (id, name, image, max_hp, cur_hp, atk, atk_type, atk2, atk2type, util, util_type, util_cd, threat) VALUES
