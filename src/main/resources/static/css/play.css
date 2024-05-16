@@ -1,0 +1,473 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+#party-selection-section {
+    display: none;
+}
+
+#intro-section {
+    display: none;
+}
+
+#game-section {
+    display: none;
+}
+
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.game-text {
+    font-family: "Press Start 2P";
+    color: #00ff66;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#logo-text {
+    font-size: 60px;
+    text-align: center;
+    font-family: "Press Start 2P";
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: #00ff66;
+    /* margin-top: 50%; */
+}
+
+#right-content {
+    /* background-color: aqua; */
+    width: 25%;
+    height: 100vh;
+    box-sizing: border-box;
+    border-left: 5px solid #00ff66;
+}
+
+#left-content {
+    /* background-color: aqua; */
+    width: 25%;
+    height: 100vh;
+    box-sizing: border-box;
+    border-right: 5px solid #00ff66;
+}
+
+#info-readout {
+    box-sizing: border-box;
+    border-bottom: 5px solid #00ff66;
+    /* background-color: bisque; */
+    width: 100%;
+    height: calc(100% - 200px)
+}
+
+#main-content {
+    width: 50%;
+    height: 100vh;
+    /* background-color: blue; */
+}
+
+#logo-button-cont {
+    width: 100%;
+    height: 50%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#start-screen-section {
+    width: 100%;
+    height: 100%;
+    /* color: pink; */
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+#startscreen-button {
+    background-color: black;
+    border: 3px solid #00ff66;
+    color: #00ff66;
+    padding: 10px 16px;
+    font-family: "Press Start 2P";
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#startscreen-button:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+#intro-section {
+    /* display: inline-flex; */
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro-partybtn-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    /* background-color: blueviolet; */
+    line-height: 120%;
+}
+
+#party-start-button {
+    background-color: black;
+    border: 3px solid #00ff66;
+    color: #00ff66;
+    padding: 10px 16px;
+    font-family: "Press Start 2P";
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#party-start-button:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* party selection */
+
+#party-selection-section {
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cat-cont {
+    /* background-color: #3c384d; */
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#selected-party-cont {
+    /* background-color: yellow; */
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border-top: 3px solid #00ff66;
+}
+
+.cat-card {
+    height: 240px;
+    width: 160px;
+    /* background-color: #3c384d; */
+    border: 5px solid #00ff66;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.sel-cat-card {
+    height: 300px;
+    width: 200px;
+    /* background-color: #3c384d; */
+    border: 5px solid #00ff66;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.card-header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 3px solid #00ff66;
+
+}
+
+.cat-image-cont {
+    height: 80%;
+    width: 100%;
+}
+
+.cat-hp {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-top: 3px solid #00ff66;
+    font-size: 10px;
+}
+
+.sel-cat-hp {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-top: 3px solid #00ff66;
+}
+
+.cat-hp-text {
+    font-family: "Press Start 2P";
+    color: #00ff66;
+}
+
+.sel-cat-text {
+    font-family: "Press Start 2P";
+    color: #00ff66;
+}
+
+.cat-text {
+    font-family: "Press Start 2P";
+    color: #00ff66;
+    font-size: 10px;
+}
+
+#game-start-button-cont {
+    width: 100%;
+    height: 20%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-start-button {
+    background-color: black;
+    border: 3px solid #00ff66;
+    color: #00ff66;
+    padding: 10px 16px;
+    font-family: "Press Start 2P";
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#game-start-button:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* game section*/
+
+#game-section {
+    width: 100%;
+    height: 100%;
+    /* background-color: yellow; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#enemy-section {
+    height: 50%;
+    width: 100%;
+    /* background-color: beige; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#enemy-cont {
+    width: 80%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#combat-button-cont {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellowgreen; */
+}
+
+#combat-button {
+    background-color: black;
+    border: 3px solid #00ff66;
+    color: #00ff66;
+    padding: 10px 16px;
+    font-family: "Press Start 2P";
+    font-size: 20px;
+}
+
+#party-cont {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background-color: chocolate; */
+}
+
+.party-cat {
+    height: 375px;
+    width: 250px;
+    /* background-color: #3c384d; */
+    border: 5px solid #00ff66;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.party-cat-text {
+    font-family: "Press Start 2P";
+    color: #00ff66;
+    font-size: 20px;
+}
+
+.party-card-header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 3px solid #00ff66;
+}
+
+.party-cat-image-cont {
+    width: 100%;
+    height: 70%;
+    /* background-color: aqua; */
+}
+
+.cat-button-cont {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* box-sizing: border-box; */
+    /* border-bottom: 3px solid #00ff66; */
+}
+
+.cat-atk-button {
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: "Press Start 2P";
+    font-size: 18px;
+    border: 3px solid #00ff66;
+    color: #00ff66;
+    background-color: black;
+}
+.cat-atk-button:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.cat-util-button {
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: "Press Start 2P";
+    font-size: 18px;
+    border: 3px solid #00ff66;
+    color: #00ff66;
+    background-color: black;
+}
+.cat-util-button:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.party-cat-hp {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-top: 3px solid #00ff66;
+    color: #00ff66;
+}
+
+.cat-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.enemy-text {
+    font-family: "Press Start 2P";
+    color: #00ff66;
+    font-size: 20px;
+}
+
+.enemy-card {
+    height: 600px;
+    width: 900px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #00ff66;
+}
+
+.enemy-header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 3px solid #00ff66;
+}
+
+.enemy-image-cont {
+    width: 100%;
+    height: 80%;
+    /* background-color: azure; */
+}
+
+.enemy-hp {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-top: 3px solid #00ff66;
+}
+
+.enemy-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

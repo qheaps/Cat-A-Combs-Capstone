@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Cat-A-Combs</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/play.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="left-content">
+        <div id="info-readout">
+            <p class="game-text"> > dir C:\actions\*.TXT</p>
+        </div>
+        <div id="run-info">
+            <p class="game-text"> > dir C:\run_info\*.TXT</p>
+        </div>
+    </section>
+    <section id="main-content">
+        <section id="game-section">
+            <div id="enemy-section">
+                <div id="enemy-cont">
+                    <p class="game-text">Your party, now assembled, begins its descent on the seeminly endless spiral
+                        staircase that serves as the entrance into the labyrinth. As your party continues to circle the
+                        stairs, the morning sun begins to grow dimmer and dimmer - it then dawns upon the members of
+                        your party that this is likley the last time they will ever see the sun again, and this
+                        realization
+                        gives them a brief pause. But whatever goals the disparate members of your party possess keep
+                        them
+                        marching ever forwards, as regardless as to what their goals may be - they will all start and
+                        end within the
+                        labyrinth.</p>
+                </div>
+            </div>
+            <div id="combat-button-cont">
+                <button id="combat-button">Continue</button>
+            </div>
+            <div id="party-cont"></div>
+        </section>
+
+        <section id="start-screen-section">
+            <div id="logo-button-cont">
+                <h1 id="logo-text">Cat-A-Combs</h1>
+                <button id="startscreen-button">Enter The Depths</button>
+            </div>
+        </section>
+
+        <section id="intro-section">
+            <div id="intro-partybtn-cont">
+                <p class="game-text">The world is dying.<br>Bingus, The Mage of Light, once a bulwark against the
+                    evils of the world - has betrayed us all. His fortresses, once bastions of good, had been morphed
+                    into labyrinths containing portals to the 7 hells. First local towns fell to the
+                    legions that spewed out of them. Life itself was exterminated in their wake, replaced with all
+                    manners of abhorrent creations from the now fallen mage Bingus. Soon cities fell to the legions of
+                    the hells, their inhabitants turned into mutated servants, a sick mockery of their former selves.
+                    The empires in which these cities once stood soon too fell one by one, and as the threat posed by
+                    this invasion had become glaringly apparent, even once bitter foes began to
+                    put aside their differences to stop the rising tide.<br>As it became increasingly clear that Bingus`
+                    fortresses were the source of the forces of the hells, expeditions composed of the worlds strongest:
+                    mages, warriors, and paladins alike were launched within them to halt the flow once and for all.
+                    Some were successful, destroying the bridge between the hells and our world, but most were not, only
+                    adding fuel to the ever burning fire.<br>
+                    The legions pushed ever forwards, having purged entire continents of life. It is within the last
+                    great empire, Nekotaria - once the home of Bingus, that the world makes its last stand. Within its
+                    capital's walls lies the seemingly dormant fortress of Mori. Vagrants, legends, criminals, exiles
+                    and heroes alike attempt to reach its depths, whether for fame, wealth, or atonement - and your
+                    party is no different. But time
+                    is running out, and this may be the last chance to save anyone or anything.</p>
+                <button id="party-start-button">Assemble Your Party</button>
+            </div>
+        </section>
+
+        <section id="party-selection-section">
+            <div id="cat-cont"></div>
+            <p class="game-text">Your Party</p>
+            <div id="selected-party-cont"></div>
+            <div id="game-start-button-cont">
+                <button id="game-start-button">Venture Forth</button>
+            </div>
+        </section>
+    </section>
+    <section id="right-content">
+        <div id="items">
+            <p class="game-text">> no items (;-;)</p>
+        </div>
+    </section>
+
+    <script src="./js/play.js" type="application/javascript"></script>
+</body>
+
+</html>
