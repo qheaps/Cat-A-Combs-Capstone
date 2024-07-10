@@ -62,7 +62,7 @@ public class RunInfoServiceImpl implements RunInfoService {
                 System.out.println("run info exists");
 //                System.out.println(runInfoRepo.findAllRunInfoByUser(userOptional.get()));
             } else {
-                System.out.println("shit fucked bruh");
+                System.out.println("things be broken");
             }
 //            System.out.println(Optional.of(new RunInfoDto(runInfo.get())));
             return Optional.of(new RunInfoDto(runInfo.get()));

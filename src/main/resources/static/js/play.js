@@ -601,6 +601,8 @@ gameStartBtn.addEventListener(`click`, async (e) => {
 })
 
 //might be a bit reductive to call it `combat-button` at this point
+//need a function that applies items to combat stats on level run
+//select item function upon victory
 document.getElementById(`combat-button`).addEventListener(`click`, async e => {
     console.log(runInfoArr[0])
     if (runInfoArr[0].level == 1) {

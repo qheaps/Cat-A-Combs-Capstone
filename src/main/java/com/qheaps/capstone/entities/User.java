@@ -6,6 +6,9 @@ import lombok.*;
 
 import jakarta.persistence.*;
 
+import java.util.HashSet;
+import java.util.Set;
+
 @Entity
 @Table(name = "Users")
 @Data
@@ -29,6 +32,10 @@ public class User {
     private RunInfo runInfo;
 
     //Item join
+    @OneToMany(mappedBy = "userItem", fetch = FetchType.LAZY, cascade = {CascadeType.MERGE, CascadeType.PERSIST})
+    @JsonManagedReference
+    private Set<Item> itemSet = new HashSet<>();
+
     public User(Long id, String username, String password) {
         this.id = id;
         this.username = username;
